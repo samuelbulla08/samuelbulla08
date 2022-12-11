@@ -1,0 +1,110 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background:#f4f4f6;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #02434d;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{               /*barra de inicio*/
+    text-decoration: none;
+    color :rgb(51, 9, 237);
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+:root{
+    
+    --azulOscuro:#0A1128;
+    --rojo:#f04107;
+    --azul:#5ab632;
+    --negro:#000000;
+    --titulos:'Baloo 2 ',cursive;
+    --parrafos:'Montserrat', sans-serif;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size:100% ;
+}
+body{
+    font-size: 1.6rem;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+/*Estilos globales*/
+
+h1,h2,h3{
+    font-family: var(--titulos) ;
+}
+p, a {
+    font-family: var(--parrafos);
+}
+
+/*Encabezado*/
+.encabezado{
+    background-image:url('../img/Supermercado.jpg') ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 2rem;
+    background-size: cover;
+    background-position: center center;
+}
+.logo h2{
+    font-size: 3rem;
+    color: var(--rojo);
+    text-align: center;
+}
+
+.logo h2 span{
+    color: var(--rojo);
+
+}
+.contenido-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blanco);
+    box-shadow: 10px 10px 16px -6px rgba(4, 19, 234, 0.45);
+}
+.navegacion{
+    background-color: var(--rojo);
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
+.navegacion a{
+    display: block;
+    font-size: 2rem;
+    padding: 1.1rem;
+    color: var(--oscuro)
+    
+}
+@media(min-width:768px){
+
+}
+
+.texto-encabezado {
+    display: block;
+    font-size: 2rem;
+    padding: 1.1rem;
+    color: var(--azul);
+}
+/*.hamburguer span{
+    width: 5rem;
+    height: 1rem;
+    border: 3px solid rgb(133, 237, 6);
+    background-color: var(--oscuro);
+    display: block;
+}*/
